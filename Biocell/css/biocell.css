@@ -1,4 +1,5 @@
 
+
   .site-header.mo-left.header {
     height: auto !important;
   }
@@ -269,7 +270,7 @@ font-size: 20px;
 }
 
 .sells-overview{
-  padding: 40px 0 30px;
+  padding: 40px 0 40px;
 }
 
 .sells-overview .heading{
@@ -379,7 +380,7 @@ scale: 1.01;
 }
 
 .misvis{
-  padding: 60px 0 45px;
+  padding: 25px 0 45px;
   display: grid;
   grid-template-columns: auto auto;
   gap:40px
