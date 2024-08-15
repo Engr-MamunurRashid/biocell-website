@@ -84721,6 +84721,11 @@ a {
   z-index: 1;
   padding-top: 80px;
 }
+@media only screen and (max-width: 991px) {
+  .single-product-info-left {
+    padding-top: 115px;
+  }
+}
 @media only screen and (max-width: 575px) {
   .single-product-info-left {
     padding-top: 30px;
@@ -85467,7 +85472,14 @@ a {
   z-index: 9;
   border-radius: 30px 0 0 30px;
 }
-@media only screen and (max-width: 575px) {
+
+@media only screen and (max-width: 930px) {
+  .right-text-bar {
+    right: -6px;
+  }
+}
+
+@media only screen and (max-width: 690px) {
   .right-text-bar {
     display: none;
   }
@@ -85506,6 +85518,12 @@ a {
 .right-text-bar ul li img {
   width: 88px;
   transform: rotate(-25deg);
+}
+
+@media only screen and (max-width: 930px) {
+  .right-text-bar ul li img{
+    width: 65px;
+  }
 }
 
 .dz-bnr-inr video#video-background {
