@@ -174,15 +174,14 @@
 }
 
 .btn {
-  color: var(--rgba-primary-9);
-  border: 1px solid var(--primary);
-  margin-top: 25px;
+
 }
 
 .btn:hover {
   background-color: var(--primary);
   border: 1px solid var(--primary);
 }
+
 
 .gallery-col .gallery-item img {
   mask-repeat: no-repeat;
@@ -434,3 +433,19 @@ font-weight: 600;
 color: #000000ae;
 margin-bottom: 30px;
 }
+
+.form-group .input-group-addon .btn{
+  transition-duration: 400ms;
+  border-color: black;
+}
+.form-group .input-group-addon .btn:hover{
+  scale: 1.01;
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+
+.dz-product-detail .product-size .btn {
+  margin-top: 5px;
+}
+
