@@ -471,3 +471,12 @@ margin-bottom: 30px;
   margin-top: 5px;
 }
 
+.blog-archive .single-blog .dz-media img{
+  height: 485px;
+}
+
+@media screen and (max-width: 991px) {
+  .blog-archive .single-blog .dz-media img{
+    height: 240px;
+  }
+}
