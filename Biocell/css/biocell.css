@@ -588,3 +588,7 @@ ul.lightgallery li.col-xl-3 .portfolio-box.style-1 h2.title a{
     width: 40px;
   }
 }
+
+.show-focus-outline .header-nav .navbar-nav .sub-menu-down a:focus{
+  outline: none!important;
+}
