@@ -480,3 +480,52 @@ margin-bottom: 30px;
     height: 240px;
   }
 }
+
+
+@media screen and (max-width: 991px){
+  .header-nav.w3menu .nav > li > a:hover {
+    scale: 1;
+  }
+
+  .header-nav.w3menu .nav > li .sub-menu::after{
+    background-image: none;
+  }
+
+  .header-nav.w3menu::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/leaf-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+}
+
+.sub-menu-down ul.sub-menu li a{
+  font-size: 15px!important;
+}
+
+@media screen and (min-width: 991px){
+  .sub-menu-down {
+    position: relative!important;
+  }
+
+  .sub-menu{
+    opacity: 0!important;
+    transform: translateY(-20px)!important;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out!important;
+  }
+
+  .sub-menu-down:hover .sub-menu {
+    opacity: 1!important;
+    transform: translateY(0)!important;
+  }
+  
+
+}
+
+

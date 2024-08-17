@@ -1332,7 +1332,7 @@ var PlantZone = function(){
 			handleMultipleImageSize();
 			handleIsotope();
 			onePageLayout();
-			handleOpenModal();
+			// handleOpenModal();
 			//handleSplitSlider();
 			jQuery('.modal').on('show.bs.modal', reposition);
 		},
