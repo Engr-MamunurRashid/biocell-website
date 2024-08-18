@@ -592,3 +592,46 @@ ul.lightgallery li.col-xl-3 .portfolio-box.style-1 h2.title a{
 .show-focus-outline .header-nav .navbar-nav .sub-menu-down a:focus{
   outline: none!important;
 }
+
+.ch-partner-banner {
+  margin-bottom: 40px;
+}
+
+.ch-partner-form.content-inner{
+ padding-top: 50px;
+ padding-bottom: 0;
+}
+
+@media screen and (max-width: 991px) {
+.ch-partner-banner {
+  margin-bottom: 25px;
+}
+
+.ch-partner-form.content-inner{
+ padding-top: 30px;
+}
+}
+
+.icon-bx-wraper.style-5.partner{
+  background-color: var(--dark-light);
+  border-radius: 6px;
+  border: 1px solid var(--primary);
+  transition-duration: 400ms;
+}
+
+.icon-bx-wraper.style-5.partner:hover{
+transform: translateY(-2px);
+
+}
+
+.icon-bx-wraper.style-5 .icon-media i{
+  width: 48px;
+  height: 60px;
+}
+.icon-bx-wraper.style-5.partner .icon-media{
+  margin-right: 0;
+}
+.icon-bx-wraper.style-5.partner .icon-content .title {
+  width: 100%;
+  margin-right: 10px;
+}
