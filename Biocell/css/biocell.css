@@ -635,3 +635,7 @@ transform: translateY(-2px);
   width: 100%;
   margin-right: 10px;
 }
+
+.account-card.credentials {
+  margin: 60px auto 40px;
+}
