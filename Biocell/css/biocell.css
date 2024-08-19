@@ -639,3 +639,7 @@ transform: translateY(-2px);
 .account-card.credentials {
   margin: 60px auto 40px;
 }
+
+.icon-bx-wraper.style-7 .contact-location p {
+  text-transform: capitalize;
+}
