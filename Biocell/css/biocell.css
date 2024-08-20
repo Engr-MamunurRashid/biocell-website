@@ -173,8 +173,6 @@
   border-radius: 50%;
 }
 
-.btn {
-}
 
 .btn:hover {
   background-color: var(--primary);
@@ -646,4 +644,27 @@ transform: translateY(-2px);
 
 .logo-badge{
   top: 55%!important;
+}
+
+.bio-detail{
+  padding-bottom: 0px;
+}
+
+.bio-detail .blog-single h1.dz-title{
+max-width: 100%;
+}
+
+.section-head.our-team p {
+  padding: 10px 20px 10px 0;
+  text-align: justify;
+}
+
+@media screen and (max-width: 991px){
+.section-head.our-team p {
+  padding: 10px 0;
+}
+}
+
+.about-thumb img{
+  margin-bottom: 40px;
 }
