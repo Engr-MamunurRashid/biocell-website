@@ -668,3 +668,14 @@ max-width: 100%;
 .about-thumb img{
   margin-bottom: 40px;
 }
+
+.blog-single.bio-content{
+  margin-bottom: 0;
+  padding-top: 60px ;
+}
+
+@media screen and (max-width: 450px){
+  .blog-single.bio-content{
+    padding-top: 40px ;
+  }
+}
