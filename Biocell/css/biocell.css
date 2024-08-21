@@ -343,9 +343,9 @@ scale: 1.01;
 }
 
 .sells-overview .box div{
-  width: 80px;
+  width: 90px;
   margin: auto;
-  padding: 15px;
+  padding: 24px;
   border-radius: 50%;
   background-color: var(--rgba-primary-9);;
 }
@@ -357,6 +357,11 @@ scale: 1.01;
 
 .sells-overview .box h4{
   font-weight: 600;
+}
+
+.sells-overview .box i{
+  font-size: 36px;
+  color: white;
 }
 
 
@@ -677,5 +682,29 @@ max-width: 100%;
 @media screen and (max-width: 450px){
   .blog-single.bio-content{
     padding-top: 40px ;
+  }
+}
+
+.form-img img{
+  width: 100%;
+  margin-bottom: 25px;
+  border-radius: 12px;
+}
+
+.about-style4 .side-content .about-thumb.review-img {
+  padding-left: 0;
+}
+
+.about-style4 .side-content .about-thumb.review-img img {
+  border-radius: 15px;
+}
+
+#contact-form {
+  margin: 30px 0;
+}
+
+@media screen and (max-width: 991px){
+  #contact-form {
+    margin: 20px 0;
   }
 }
