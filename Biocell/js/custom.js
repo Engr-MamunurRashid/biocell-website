@@ -1390,7 +1390,7 @@ jQuery(window).on('load',function () {
 
 	setTimeout(function(){		
 		jQuery('#loading-area').addClass('active');
-		jQuery('#loading-area').fadeOut(2000);
+		jQuery('#loading-area').fadeOut(450);
 	}, 1500);
 	setTimeout(function(){
 		jQuery('#loading-area').addClass('show');
