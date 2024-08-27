@@ -94,13 +94,13 @@ transform: translateY(-3px);
 
    .left-nav {
       margin: auto;
-      margin-bottom: 20px;
+      margin-bottom: 8px;
    }
 
    .right-nav {
       flex-direction: column;
       margin: auto;
-      gap: 20px;
+      gap: 10px;
    }
 
    .menu li {
