@@ -291,5 +291,20 @@
        <div class="w-full py-8 px-4 sm:px-6 md:px-16"><h3 class="rounded-lg border text-center p-3 text-white bg-[#e6e6e640]">@2024 - All rights are Reserved by freelance Hub (Bd) Limited</h3></div>
 
    </div>
+
+   <script>
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    const targetId = this.getAttribute('href').substring(1);
+    const targetElement = document.getElementById(targetId);
+
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  });
+});
+   </script>
 </body>
 </html>
